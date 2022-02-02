@@ -1,1 +1,3 @@
-personal notes or stuff, for knowledge accumulation only
+## notes
+
+self-learning process
