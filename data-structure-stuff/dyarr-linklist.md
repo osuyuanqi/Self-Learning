@@ -1,0 +1,4 @@
+- array-> continuous memory, direct access(same as random access->means it can access [arbitrary element](https://en.wikipedia.org/wiki/Random_access#:~:text=Random%20access%20(more%20precisely%20and,may%20be%20in%20the%20set.))
+- link node = value + next
+- single linked list->keep track tail & head, head-> point the first link node, tail->point the last link node(not point to null).
+- double linked list->track next & previous link
