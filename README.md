@@ -1,3 +1,3 @@
-## notes
+## self - notes
 
 self-learning process
