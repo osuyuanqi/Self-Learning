@@ -90,12 +90,13 @@ def qsort(a):
     right = [i for i in a if i > pivot]
     return qsort(left) + [pivot] + qsort(right)
     
+if __name__ == "__main__":
+    numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0]
 
-numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
-
-print(bubSort(numbers[::]))
-print(selSort(numbers[::]))
-print(insSort(numbers[::]))
-print(merSort(numbers[::]))
-print(qsort(numbers[::]))
-
+    print(bubSort(numbers[::]))
+    print(selSort(numbers[::]))
+    print(insSort(numbers[::]))
+    print(merSort(numbers[::]))
+    print(qsort(numbers[::]))
+else:
+    print("====", __name__,"imported finished====\n")
