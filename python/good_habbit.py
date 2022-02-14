@@ -4,8 +4,8 @@ def run_this(name: str, age: int)-> None:
 	my_goods = ["apple", "blueberries", "cake"]
 	for item in my_goods:
 		print(item)
-print("====good_habbit program",__name__,"====")
 if __name__ == "__main__":
+	print("==== good_habbit program",__name__,"====")
 	my_age = 16
 	print("Welcome to my program")
 	my_name = "Carolina"

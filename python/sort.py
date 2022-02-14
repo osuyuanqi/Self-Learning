@@ -99,4 +99,4 @@ if __name__ == "__main__":
     print(merSort(numbers[::]))
     print(qsort(numbers[::]))
 else:
-    print("====", __name__,"imported finished====\n")
+    print("====", __name__,"imported finished====")
