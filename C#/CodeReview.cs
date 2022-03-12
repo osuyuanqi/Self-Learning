@@ -10,9 +10,9 @@ namespace HelloWorld
 
             for (int i = 0; i < 5; i++)
             {
+                // int i = 0, execute once only
                 Console.WriteLine(i);
             }
-            // stat execute once only
             // define array method 1
             string[] cars;
 
