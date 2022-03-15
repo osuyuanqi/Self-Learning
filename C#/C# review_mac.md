@@ -15,4 +15,3 @@
 ## tips:
 - string"",char''
 - compiler internally performs type conversion. e.g.10+"abc"//"10abc"
-- 
