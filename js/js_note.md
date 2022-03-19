@@ -1,1 +1,3 @@
 - [js dictionary usage](https://flexiple.com/javascript-dictionary/)
+- fetch is a window object, eg.window.fetch.
+- 
