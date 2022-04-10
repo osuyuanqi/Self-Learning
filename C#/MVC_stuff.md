@@ -1,0 +1,2 @@
+- the browser that displays the ASP file doesn't need to support scripting, since the script is executed on the server side.
+-
