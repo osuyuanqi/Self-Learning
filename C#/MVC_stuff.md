@@ -1,2 +1,4 @@
 - the browser that displays the ASP file doesn't need to support scripting, since the script is executed on the server side.
--<% %>
+- <% %>
+- ActionResult: return type could decide what received, such as Content(plain/text), File(filename,"application/pdf"). 
+- route: default->/{Controller}/{Action}/{id}, e.g. /home/getempid?id=1 (right);/home/getempid/id/1 (wrong)
