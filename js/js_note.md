@@ -9,3 +9,18 @@ fetch(url).then(function(a) {
 	return a.json()}).then(function(b){
 	})
 ```
+- [JS array const->store reference,push/pop->operate the array point to, rather than array itself](https://stackoverflow.com/questions/23436437/why-can-i-change-a-constant-object-in-javascript)
+```JavaScript
+// right
+const y = [];
+
+y.push('foo');
+
+console.log(y); // ['foo']
+// wrong:
+const x = {};
+x = {foo: 'bar'}; // error - re-assigning
+
+const y = ['foo'];
+const y = ['bar']; // error - re-declaring
+```
