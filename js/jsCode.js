@@ -57,7 +57,7 @@ let jsonString = JSON.stringify(json);
 let json_again = JSON.parse(jsonString);
 console.log(typeof json, typeof jsonString, typeof json_again); //object,string,object
 
-console.log("==== deconstruct ====");
+console.log("==== Destructuring ====");
 // !!!NEVER start a statement with ( or [
 let [x, y] = [1, 2, 3];
 console.log(x, y); // semicolon can't be ignored here
@@ -74,11 +74,11 @@ sally.age = 29; //OK
 console.log(sally);
 
 // deconstruct object,way1,2,3 exactly the same
-let herry = { name: "herry", age: 18 };
-({ name, age } = herry); //way1,()is must,or it's the start of a block statement
-// let {name,age} = herry;//way2
+var herry = { name: "herry", age: 18 };
+// ({ name, age } = herry); //way1,()is must,or it's the start of a block statement
+let {name,age} = herry;//way2
 // let {name:name,age:age}=herry;//way3
-console.log(name, age);
+console.log(name,age);
 
 // compute through brackets
 let field = "Age";
@@ -134,6 +134,3 @@ let counter = 0;
 let riddle = counter++;
 let enigma = ++counter;
 console.log(riddle, enigma, counter); //022
-
-console.log("==== add listener ====");
-// var btn = button.addEventListener;

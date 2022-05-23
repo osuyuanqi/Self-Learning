@@ -22,5 +22,19 @@ test[2].classList.toggle("big");
 test[2].classList.toggle("big");
 
 li_elem.parentElement.setAttribute("id", "1");
-console.log(li_elem.parentElement.parentElement)
+console.log(li_elem.parentElement.parentElement);
 // console.log(li_elem, test, li_first_att, li_first_newatt);
+
+// ==== 0 and false ====
+const validNumber = [0, "", null]; // 0 should work
+console.log(0 == false, 0 === false); //== value check;===type check
+validNumber.forEach((a) => {
+  // potential bugs, e.g.0->convert to false implicitly
+  if (!a) {
+    console.log("error in way 1:" + a);
+  }
+  // right way
+  if (a == null || isNaN(parseInt(a))) {
+    console.log("error in way 2:" + a);
+  }
+});
