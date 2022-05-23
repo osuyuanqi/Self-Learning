@@ -76,9 +76,9 @@ console.log(sally);
 // deconstruct object,way1,2,3 exactly the same
 var herry = { name: "herry", age: 18 };
 // ({ name, age } = herry); //way1,()is must,or it's the start of a block statement
-let {name,age} = herry;//way2
+let { name, age } = herry; //way2
 // let {name:name,age:age}=herry;//way3
-console.log(name,age);
+console.log(name, age);
 
 // compute through brackets
 let field = "Age";
@@ -134,3 +134,8 @@ let counter = 0;
 let riddle = counter++;
 let enigma = ++counter;
 console.log(riddle, enigma, counter); //022
+
+console.log("==== ...operator ====");
+nums = [1, 2, 3, 4, 5, 6, 7];
+let arr = [...nums, 8];
+console.log(...arr); // deconstruct array
