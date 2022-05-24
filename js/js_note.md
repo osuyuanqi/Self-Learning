@@ -24,8 +24,12 @@ x = {foo: 'bar'}; // error - re-assigning
 const y = ['foo'];
 const y = ['bar']; // error - re-declaring
 ```
-- closure: [make data safer,since no private class](https://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
+- closure: [make data safer,since js no private class before 2015](https://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
 
 - What are the two elements of a pure function?
 1. Deterministic --> always produces the same results given the same inputs
 2. No Side Effects -->  It does not depend on any state, or data, change during a program’s execution. It must only depend on its input elements.
+
+- []===[]//false,since array is object, means different memory location
+
+ 
