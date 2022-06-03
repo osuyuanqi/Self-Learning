@@ -32,4 +32,5 @@ const y = ['bar']; // error - re-declaring
 
 - []===[]//false,since array is object, means different memory location
 
- 
+- npm update: frequently than the node.js
+>npm install npm@latest -g
