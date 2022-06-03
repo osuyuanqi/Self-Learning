@@ -33,3 +33,6 @@ const y = ['bar']; // error - re-declaring
 - []===[]//false,since array is object, means different memory location
 
 - GET->get sth, POST-> add sth, PUT>update sth, DELETE->delete sth
+
+- npm update: frequently than the node.js
+>npm install npm@latest -g
