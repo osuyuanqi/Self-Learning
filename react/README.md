@@ -12,4 +12,6 @@ import ReactDOM from 'react-dom'; // connect react with web browser dom
 
 why className? not reserved words,but React use the vanila javascript, so, document.getElementById('something').className+="new-class-name".
 
-
+- className can just used in the original HTML tag, rather than the self-built tag
+- className should search from the root location, also where the first tag comes out
+- 
