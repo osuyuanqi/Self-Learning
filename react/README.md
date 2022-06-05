@@ -7,6 +7,7 @@ refer from OSU prof. Rob Hess, [CS 499 – Advanced Web Development](https://web
 spinkit: [Loading animation](https://tobiasahlin.com/spinkit/)
 
 import React from 'react'; // import react package
+
 import ReactDOM from 'react-dom'; // connect react with web browser dom
 
 
