@@ -10,4 +10,6 @@ import React from 'react'; // import react package
 
 import ReactDOM from 'react-dom'; // connect react with web browser dom
 
+why className? not reserved words,but React use the vanila javascript, so, document.getElementById('something').className+="new-class-name".
+
 
