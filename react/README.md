@@ -14,4 +14,5 @@ why className? not reserved words,but React use the vanila javascript, so, docum
 
 - className can just used in the original HTML tag, rather than the self-built tag
 - className should search from the root location, also where the first tag comes out
+- props are immutable and unchangable
 - 
