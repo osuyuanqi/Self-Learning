@@ -37,4 +37,4 @@ const y = ['bar']; // error - re-declaring
 - npm update: frequently than the node.js
 >npm install npm@latest -g
 - fetch is a method of window. e.g. window.fetch('xxx').then(a=>a.json()).then(b=>console.log(b))//as long as a/b is promise, can get the result.
-- Promise:fullfilled(success), rejected(fail), pending(not finish,need then)
+- Promise: concerns about the final result. fullfilled(success), rejected(fail), pending(not finish).
