@@ -40,4 +40,4 @@ const y = ['bar']; // error - re-declaring
 - Promise: concerns about the final result. fullfilled(success), rejected(fail), pending(not finish).
 - 3 useful modules: fs->build-in module, http, nodemon. 
   >Additional: bodyParser->parse html, Postman->test server before sending to it.
-- imperative->manipulate DOM directly; declarative->manipulate virtual DOM 
+- imperative->manipulate DOM directly.e.g.jQuery; declarative->manipulate virtual DOM, e.g.React
